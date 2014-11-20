@@ -38,11 +38,55 @@ html {
     box-sizing: inherit;
 }
 
-.nav {
-    padding: o;
+li {
+    padding: .05 em;
+    text-decoration: none;
 }
 
 .nav li {
-    text-decoration: none;
     display: inline-block;
 }
+
+.masthead {
+    overflow: hidden;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+    text-decoration: none;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active,
+.nav .nav-current,
+.nav .nav-current:link,
+.nav .nav-current:visited{
+
+}
+
+.nav-colour {
+    background-color: #B2F0FF;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    border: solid .05em;
+    text-align: center;
+}
+
+.gold {
+    display: inline-block;
+}
+
+.permium {
+    display: inline-block;
+}
+    
+ div {
+     padding: 0;
+     margin: 0;
+ }
+
