@@ -145,15 +145,21 @@ p {
   width: 100%;
 }    
 
-img {
-    opacity: 0.5;
+.img {
+    position: relative; 
+   width: 100%;
+}
+
+h2 { 
+   position: absolute; 
+   top: 150px; 
+   left: 0; 
+   width: 100%; 
     filter:blur(100px);
 }
 
-h2 {
-   position:relative;
-   top: -234px;
-   width: 100%;
-    text-align: center;
-
+h2 span { 
+   color: white;   
+   background: black;
+   padding: 10px; 
 }
