@@ -166,10 +166,6 @@ button {
     font-size: .5em;
 }
 
-.button {
-    margin-top: 
-}
-
 .icon {
     width: 33.3333%;
 }
@@ -209,7 +205,6 @@ button {
     color: #00BFFF;   
 }
 
-
 .header {
     background-image: url(../img/billboard.jpg);
     padding-bottom: 8em;
@@ -232,6 +227,11 @@ h1 {
     
 h4 {
     color: white;
+}
+
+h3 {
+    text-align: center;
+    
 }
     
     
