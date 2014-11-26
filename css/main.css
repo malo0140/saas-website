@@ -151,15 +151,16 @@ p {
 }
 
 h2 { 
-   position: absolute; 
-   top: 150px; 
-   left: 0; 
-   width: 100%; 
-    filter:blur(100px);
+ float: left;
+    
 }
 
-h2 span { 
-   color: white;   
-   background: black;
-   padding: 10px; 
+.button {
+    
 }
+
+.icon {
+    width: 33.3333%;
+    height:;
+}
+    
