@@ -148,6 +148,8 @@ p {
 .img {
     position: relative; 
    width: 100%;
+   opacity: 0.5;
+    filter: opacity(40)
 }
 
 h2 { 
@@ -155,12 +157,24 @@ h2 {
     
 }
 
-.button {
-    
+button {
+    padding: 4px 20px;
+    height: 3em;
+    width: 20em;
+    cursor:pointer;
+    background-color: #B2F0FF;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
 }
 
 .icon {
     width: 33.3333%;
-    height:;
+    image-orientation: center;
 }
+
+@media only screen and (min-width: 38em) {
+    
+    .nav {
+         
     
