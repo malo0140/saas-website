@@ -206,7 +206,7 @@ button {
 }
 
 .maincolour {
-    background-color: #00BFFF;   
+    color: #00BFFF;   
 }
 
 
@@ -218,6 +218,25 @@ button {
     font-family: helvetica, serif;
     text-align:center;
     padding-top: 5em;
+    
 }
+
+h1 {
+    color: white;
+    margin: 0 5% 3rem;
+    overflow: hidden;
+    background-color: black;
+    background-size: 40rem;
+    background-position: center;
+}
+    
+h4 {
+    color: white;
+}
+    
+    
+
+    
+    
     
     
