@@ -207,6 +207,7 @@ button {
 
 .header {
     background-image: url(../img/billboard.jpg);
+    height: 10em;
     padding-bottom: 8em;
     width: 100%;
     background-size: cover;
@@ -229,12 +230,15 @@ h4 {
     color: white;
 }
 
-h3 {
-    text-align: center;
-    
+.thanks {
+    color: #B2F0FF;
 }
-    
-    
+
+.form {
+    width: 10em;
+    text-align: center;
+    display:inline-block;
+}
 
     
     
