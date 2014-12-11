@@ -48,13 +48,16 @@ ul {
     text-align: center;
 }
 
+.nav {
+    display: inline-block;
+}
+
 .nav li {
     text-align: center;
     display: inline;
 }
 
  .nav li::after {
-    content: "|";
     display: inline-block;
     width: 0.5em;
  }
@@ -82,6 +85,9 @@ ul {
 .nav .nav-current,
 .nav .nav-current:link,
 .nav .nav-current:visited{
+
+    background: white;
+    padding: .1em;
 
 }
 
@@ -136,7 +142,7 @@ p {
 .skip-links a {
 	padding: 0.5em 0.75em;
 	position: absolute;
-	top: -4em;
+	top: -5em;
 
 	background-color: #000;
 
@@ -167,6 +173,8 @@ button {
     background-color: #B2F0FF;
     font-weight: bold;
     font-size: .5em;
+    padding: none;
+    margin: none;
 }
 
 .icon {
@@ -180,7 +188,6 @@ button {
   }
 
   .nav-footer li::after {
-    content: "|";
     display: inline-block;
     width: 0.5em;
 
@@ -210,7 +217,7 @@ button {
 
 .header {
     background-image: url(../img/billboard.jpg);
-    height: 10em;
+    height: 15em;
     padding-bottom: 8em;
     width: 100%;
     background-size: cover;
@@ -241,6 +248,11 @@ h4 {
     width: 10em;
     text-align: center;
     display:inline-block;
+}
+
+.created {
+    text-align: center;
+    padding: none;
 }
 
 
