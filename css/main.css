@@ -87,7 +87,6 @@ ul {
 .nav .nav-current:visited{
 
     background: white;
-    padding: .1em;
 
 }
 
@@ -211,10 +210,6 @@ button {
     display: inline;
 }
 
-.maincolour {
-    color: #00BFFF;   
-}
-
 .header {
     background-image: url(../img/billboard.jpg);
     height: 15em;
@@ -255,7 +250,9 @@ h4 {
     padding: none;
 }
 
-
+.alerts {
+    background-color: #69CCED;
+}
 
     
     
