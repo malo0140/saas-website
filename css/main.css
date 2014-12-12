@@ -260,17 +260,18 @@ h4 {
 }
 
 .form {
- border: 1px solid #c6c7cc;
-  border-radius: 5px;
+ border: .1em solid white;
+  border-radius: 10px;
   overflow: hidden;
   width: 100%;
-  align-content: right;
+  align-content: center;
 }
 .formcolor {
     color: white;
     width: 100%;
     padding: 2em;
     background-color: #69CCED;
+    align-content: center;
 }
 
 .text {
