@@ -241,6 +241,7 @@ h4 {
 
 .thanks {
     color: #B2F0FF;
+    text-align: center;
 }
 
 .form {
@@ -259,13 +260,16 @@ h4 {
 }
 
 .form {
-
-    margin: 1em;
+ border: 1px solid #c6c7cc;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 100%;
+  align-content: right;
 }
-
 .formcolor {
     color: white;
     width: 100%;
+    padding: 2em;
     background-color: #69CCED;
 }
 
@@ -287,4 +291,8 @@ h4 {
     content: none;
 }
     
+.firstpara {
+    text-align: center;
+    overflow: hidden;
+}
     
