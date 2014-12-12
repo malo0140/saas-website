@@ -40,6 +40,7 @@ html {
 
 li {
     padding: .05em;
+    text-align: right;
 }
 
 ul {
@@ -50,6 +51,7 @@ ul {
 
 .nav {
     display: inline-block;
+    margin-right: 2em;
 }
 
 .nav li {
@@ -93,7 +95,7 @@ ul {
 .nav-colour {
     background-color: #B2F0FF;
     padding: 1.5em;
-    margin: 0;
+    height: 3em;
     width: 100%;
 }
 
@@ -257,13 +259,14 @@ h4 {
 }
 
 .form {
-    background: #69CCED;
+
     margin: 1em;
 }
 
 .formcolor {
     color: white;
     width: 100%;
+    background-color: #69CCED;
 }
 
 .text {
