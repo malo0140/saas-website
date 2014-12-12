@@ -40,7 +40,7 @@ html {
 
 li {
     padding: .05em;
-    text-align: right;
+    text-align: center;
 }
 
 ul {
@@ -282,6 +282,9 @@ h4 {
 .logoback {
 
 }
-    
+   
+.nav-footer li:last-child::after {
+    content: none;
+}
     
     
