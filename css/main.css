@@ -94,6 +94,7 @@ ul {
     background-color: #B2F0FF;
     padding: 1.5em;
     margin: 0;
+    width: 100%;
 }
 
 h2 {
@@ -196,6 +197,7 @@ button {
 
   .nav-footer li:last::after {
     content: none;
+      text-decoration: none;
   }
 
 .nav-footer ul {
@@ -254,7 +256,29 @@ h4 {
     background-color: #69CCED;
 }
 
-    
+.form {
+    background: #69CCED;
+    margin: 1em;
+}
+
+.formcolor {
+    color: white;
+    width: 100%;
+}
+
+.text {
+   padding: 1em;
+}
+
+.logo { 
+    width: 5em; 
+    height: 0em;
+    position:absolute
+}
+
+.logoback {
+    background: #B2F0FF;
+}
     
     
     
