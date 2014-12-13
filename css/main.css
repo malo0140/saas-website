@@ -163,11 +163,11 @@ p {
   width: 100%;
 }    
 
-.img {
+.svg {
     position: relative; 
-   width: 100%;
-   opacity: 0.5;
-    filter: opacity(40)
+    width: 50%;
+    height: 50%;
+    align-items: center;
 }
 
 button {
@@ -256,7 +256,7 @@ h4 {
 }
 
 .alerts {
-    background-color: #69CCED;
+    text-align: center;
 }
 
 .form {
@@ -295,5 +295,16 @@ h4 {
 .firstpara {
     text-align: center;
     overflow: hidden;
+}
+
+.circle {
+   border-radius: 50%;
+	width: 200px;
+	height: 200px;
+    text-align: center;
+}
+
+.colour {
+    background: #D6F5FF;
 }
     
